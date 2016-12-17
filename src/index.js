@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Portfolio from './portfolio';
 import './index.css';
 
+
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
+  <Portfolio />,
+  document.getElementById('portfolio')
 );

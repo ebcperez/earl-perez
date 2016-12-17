@@ -3,29 +3,71 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <!--
-      Notice the use of %PUBLIC_URL% in the tag above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>Earl Perez</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom1">
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span> 
+            </button>
+          <a class="navbar-brand" href="#main">Earl Perez</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+          	<li><a href="#aboutMe">About Me</a></li>
+            <li><a href="#tech">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li> 
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="main" class="main">
+			<div class="main-image">
+				<img class=" img-responsive" src="./main-image.jpg" />
+				<div class="main-text">
+					<h1>Earl Perez</h1>
+					<h2>Software Developer</h2>
+				</div>    
+			</div>  
+		</div>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <div id="aboutMe" class="container-fluid aboutMe">
+      <h3>About Me</h3>
+      <h4>I am a Software Developer currently studying Computer Science at CSU Sacramento. 
+        I mainly use Bootstrap and React.js for the front-end and Python/Django for the backend 
+        and learning more everyday.</h4>
+    </div>
+    <div id="tech" class="container-fluid tech">
+      <h3>Technology Stack</h3>
+      <p>Python</p>
+      <p>Java</p>
+    	<p>HTML/CSS/JavaScript</p>
+      <p>SQL/SQLite/PostgreSQL</p>
+      <p>Django/React.js/Bootstrap/jQuery</p>
+      <p>Git/GitHub/Heroku</p>
+      <p>Eclipse IDE/Adobe Photoshop/Visual Studio Code</p>
+    </div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start`.
-      To create a production bundle, use `npm run build`.
-    -->
+    <div id="portfolio" ></div>
+    
+    <footer id="contact" class="footer text-center">
+	    <div class="container footer-text">
+	      <h2>Contact</h2>
+	      <p>ebcperezcsc@gmail.com</p>
+	      <a href='https://www.dropbox.com/s/21gb2z5tcdcr0b7/Resume.docx?dl=0' target=_blank><img class='img-rounded padding-10' src='http://www.clker.com/cliparts/a/5/9/7/12071567031590994625kml_Document.svg.hi.png' width=30 height=30></a>
+	      <a href='https://www.linkedin.com/in/earl-perez-ba404aa0' target=_blank><img src='https://lh3.googleusercontent.com/00APBMVQh3yraN704gKCeM63KzeQ-zHUi5wK6E9TjRQ26McyqYBt-zy__4i8GXDAfeys=w300' class='img-rounded padding-10' width=30 height=30></a>
+	      <a href='https://github.com/ebcperez' target=_blank><img src='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png' class='img-rounded padding-10' width=30 height=30></a>
+	    </div>
+	  </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>
