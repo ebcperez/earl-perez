@@ -31,16 +31,16 @@ class Portfolio extends React.Component {
                     img: "portfolio1-ss.png",
                     caption: "Created with Bootstrap and jQuery",
                     link: {
-                        project: "https://ebcperez.github.io/earl-perez/",
-                        github: "https://github.com/ebcperez/earl-perez"
+                        project: "https://ebcperez.github.io/portfolio/",
+                        github: "https://github.com/ebcperez/portfolio"
                     }
                 },
                 {
-                    title: "React-Weather",
+                    title: "ReactWeather",
                     modalid: "reactweather",
-                    details: "Weather app that displays current weather data from several cities. jQuery's ajax function is used to query data from OpenWeatherMap's current weather api for several cities.",
-                    img: "bmw-img.jpg",
-                    caption: "Created with ReactJS, Bootstrap, and jQuery.",
+                    details: "Weather app that displays current weather data from several cities. Axios is used for the ajax function to query data from OpenWeatherMap's current weather api for several cities.",
+                    img: "ReactWeather-ss.png",
+                    caption: "Created with ReactJS, Bootstrap, and Axios.",
                     link: {
                         project: "https://ebcperez.github.io/reactjsweather/",
                         github: "https://github.com/ebcperez/reactjsweather"
