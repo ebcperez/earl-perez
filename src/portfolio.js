@@ -14,6 +14,17 @@ class Portfolio extends React.Component {
         this.setState({
             projects: [
                 {
+                    title: "ReactWeather",
+                    modalid: "reactweather",
+                    details: "Weather app that displays current weather data from user input location. Axios is used for the ajax function to query data from Dark Sky's forecast weather api.",
+                    img: "ReactWeather-ss.png",
+                    caption: "Created with ReactJS, Bootstrap, and Axios.",
+                    link: {
+                        project: "https://ebcperez.github.io/reactjsweather/",
+                        github: "https://github.com/ebcperez/reactjsweather"
+                    }
+                },
+                {
                     title: "timeAdd",
                     modalid: "timeAdd",
                     details: "Web app taht adds time in minutes and seconds format.",
@@ -33,17 +44,6 @@ class Portfolio extends React.Component {
                     link: {
                         project: "https://ebcperez.github.io/portfolio/",
                         github: "https://github.com/ebcperez/portfolio"
-                    }
-                },
-                {
-                    title: "ReactWeather",
-                    modalid: "reactweather",
-                    details: "Weather app that displays current weather data from several cities. Axios is used for the ajax function to query data from OpenWeatherMap's current weather api for several cities.",
-                    img: "ReactWeather-ss.png",
-                    caption: "Created with ReactJS, Bootstrap, and Axios.",
-                    link: {
-                        project: "https://ebcperez.github.io/reactjsweather/",
-                        github: "https://github.com/ebcperez/reactjsweather"
                     }
                 },
             ]
